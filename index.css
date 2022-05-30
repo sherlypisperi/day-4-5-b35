@@ -1,0 +1,151 @@
+body {
+    margin:0;
+    background-color: rgb(236, 232, 232);
+}
+
+.container-fluid img {
+    margin-right: 30px;
+    margin-left: 40px;
+}
+.d-flex {
+    border:1px solid black;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    width: 110px;
+    height: 30px;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 35px;
+}
+
+/*HOME*/
+.card {
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 10px 5px;
+    box-shadow: 0px 0px 5px;
+}
+
+.card .name {
+    align-items: center;
+    padding-left: 30px;
+    
+}
+
+.personal {
+    display:flex;
+    height: 93vh;
+    align-items: center;
+    border: 1px solid white;
+    margin: 90px;
+    background-color: white;
+}
+
+.personal .container-content {
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+.container-content {
+    margin: auto;
+    padding: 20px;
+    
+}
+
+.container-content .right {
+    flex : 40%;
+}
+
+/*HOME LEFT*/
+
+.container-content .left {
+    flex: 60%;
+    margin-left: 130px;
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-size:large;
+}
+
+.contact-button {
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: black;
+    color:white;
+    width: 80px;
+    height: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.CV button, p {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 35px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/*BLOG LIST*/
+.blog {
+    width: 100%;
+    background-color: white;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.blog-form {
+    background-color: white;
+    flex: 25%;
+    justify-content: center;
+}
+
+.card{
+    border: 1px solid;
+    border-radius: 5px;
+    width: 300px;
+    padding:10px;
+    margin-top: 200px;
+    background-color: white;
+    box-shadow: 0px 5px 10px;
+    margin-bottom: 50px;
+}
+.image img{
+    max-width: 100%;
+    height: auto;
+
+}
+
+.button-card {
+    display:flex;
+}
+
+.button-card .edit {
+    flex: 50%;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 2px;
+    background-color: #3f698b;
+    color: white;
+    text-align: center;
+}
+
+.button-card .delete {
+    flex: 50%;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: #3f698b;
+    color: white;
+    text-align: center;
+}
+
+.container-blog-form {
+    margin-left: 45px;
+}
